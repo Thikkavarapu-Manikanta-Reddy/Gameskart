@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <style>
+
+div.men
+{
+  border-radius: 20px;
+  margin:  40px 0px 40px 0px;
+  padding: 5px;
+   
+   box-shadow: 20px 20px 50px grey;
+}
+div.heck
+{
+  border-radius: 30px;
+  
+  padding: 15px;
+   margin:  0px 0px 40px 0px;
+   box-shadow: 20px 20px 50px grey;
+}
+
+</style>
+<title>Skolage</title>
+  <meta charset="utf-8">
+  <link rel="icon" href="images.png" type="image/png">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <!--<div class="cod"></div>-->
+ 
+<div class="container-fluid">
+<div class="row">
+  <div class="col-sm-4">
+</div>
+  <div class="col-sm-3">
+    <div class="men">
+<h1><strong>Skolage</strong></h1>
+</div>
+<div class="heck">
+  <form  action="data.php" method="post">
+   <div class="form-group" >
+    <label for="name">Name</label>
+    <input type="text" class="form-control"  name="name"  pattern="[A-Za-z].{0,}"  title="Enter the name" placeholder="Name....." required>
+  </div>
+  <button type="submit" class="btn btn-info">Search</button><br><br>
+  <strong>@ 2018Skolage</strong>
+</form>
+</div>
+</div>
+</div>
+</div>
+<!--<div class="assasin"></div>-->
+</body>
+</html>
